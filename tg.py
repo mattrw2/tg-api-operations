@@ -31,7 +31,10 @@ class TG:
 
     
     def get_todays(self):
-        r = requests.get(self.base_url+'tasks?today', headers=self.headers)
+
+        url = 'tasks?today'
+
+        r = requests.get(self.base_url+url, headers=self.headers)
         return json.loads(r.content)
     
     def get_token(self):
