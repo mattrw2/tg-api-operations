@@ -1,0 +1,6 @@
+client_id='xxxxxxx'
+client_secret = 'xxxxxxxx'
+username = 'matt@example.com'
+password = 'password'
+base_url = 'https://api.teamgantt.com/v1/'
+token_url = 'https://auth.teamgantt.com/oauth2/token'
