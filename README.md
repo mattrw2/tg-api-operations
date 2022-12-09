@@ -17,7 +17,7 @@ I created this project to give TeamGantt users some boilerplate python code to m
    ```
 1. Install required packages
    ```sh
-   pip install requirements.txt -r
+   pip install -r requirements.txt
    ```
 1. Retrieve your client_id and client_secret from https://app.teamgantt.com/admin/app-clients
 1. Enter your client_id, client_secret, and TeamGantt credentials in `example_config.py` and save it as `config.py`
